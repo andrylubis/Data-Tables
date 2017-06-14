@@ -5,15 +5,19 @@ Data Tables style Bootstrap 3: <a href="https://datatables.net/examples/styling/
 Pseudocode:
 1. Meletakkan CDN javascript diantara tag head HTML
 
+[code]
+
 	<head>
 		<script src="//code.jquery.com/jquery-1.12.4.js"></script>
 		<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 		<script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
 	</head>
-
+	
+[/code]
 
 2. Membuat function JavsScript di atas tag penutup body
 
+[code]
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -21,18 +25,22 @@ Pseudocode:
 		} );
 	</script>
 
-
+[/code]
 
 3. Meletakkan CDN CSS di antara tag head
 
+[code]
 
 	<head>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
 	</head>
 
+[/code]
 
 4. Meletakkan script HTML data Table di dalam tag body
+
+[code]
 
 	<body>
 
@@ -110,3 +118,5 @@ Pseudocode:
     	</table>
 		
 	</body>
+
+[/code]
